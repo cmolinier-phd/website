@@ -5,7 +5,7 @@
   
   .content ul li::before {
     content: "▹"; /* Triangle : tu peux changer pour "►", "▸", etc. */
-    color: var(--accent-color); /* Reprend la couleur principale du thème */
+    color: var(--primary-color); /* Reprend la couleur principale du thème */
     display: inline-block;
     margin-right: 0.5em;
   }
