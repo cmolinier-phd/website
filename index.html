@@ -1,3 +1,113 @@
-<h1>Camille Molinier's academic website</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil PhD</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="photo">
+                <img src="./assets/images/me.jpg" alt="Photo de profil" onerror="this.style.border='3px solid red'" />
+            </div>
+            <h1 style="color: #71C685;">Camille Molinier</h1>
+            <h2 style="color: #303745;">PhD student @UnivRennes</h2>
+  
+            <div class="buttons">
+                <a href="https://orcid.org/0009-0009-8822-2209" class="icon-button">
+                    <img src="assets/images/orcid.svg" alt="ORCID" />
+                </a>
+                <a href="https://scholar.google.com/citations?user=8-K571AAAAAJ&hl=fr&oi=ao" class="icon-button" target="_blank">
+                    <img src="assets/images/google-scholar.svg" alt="scholar" />
+                </a>
+                <a href="https://github.com/cmolinier-phd" class="icon-button" target="_blank">
+                    <img src="assets/images/github.svg" alt="github" />
+                </a>
+                <a href="https://www.linkedin.com/in/camille-molinier/" class="icon-button" target="_blank"> 
+                    <img src="assets/images/linkedin.svg" alt="linkedin" />
+                </a>
+            </div>
+        </div>
+  
+        <div class="sections">
+            <div class="about">
+                <h2>About</h2>
+                <p>I am passionate PhD student in machine learning and software engineering, my research focuses on federated learning and the application of software engineering techniques as strengthening mechanisms.</p>
+            </div>
+            <div class="research">
+                <h2 style="margin-top: 20pt;">My research</h2>
+                <p>Since October 2024, I have been a PhD student at the University of Rennes, working within the DiverSE team at the Inria Centre of Rennes.
+    
+                    The core of my research is federated learning, a decentralized machine learning paradigm that allows multiple parties to collaboratively train models without sharing raw data. I investigate how principles and techniques from software engineering—such as variability management and software testing—can be applied to strengthen the robustness and security of federated systems in the face of various attacks and failures.
+    
+                    This work lies at the crossroads of artificial intelligence, cybersecurity, and software engineering.</p>
+            </div>  
+            <div class="publications">
+                <h2>Publications</h2>
+                <ol class="publication-list">
+                    <li class="publication">
+                        <div class="publication-header">
+                        <span class="publication-title">
+                            Approches pour le renforcement d'une IA embarquée face aux attaques perturbant le federated learning
+                        </span>
+                        <span class="publication-authors small-text">
+                            C.Molinier, P.Temple, O.Zendra, O.Barais
+                        </span>
+                        </div>
+                        <p class="publication-item">
+                        Rendez-vous de la Recherche et de l'Enseignement de la Sécurité des Systèmes d'Information (RESSI) 2025
+                        </p>
+                        <a class="publication-button" href="https://hal.science/hal-05004582v1">Paper link</a>
+                    </li>
+                
+                    <li class="publication">
+                        <div class="publication-header">
+                        <span class="publication-title">
+                            FairPipes: Mutation Testing for Machine Learning Fairness
+                        </span>
+                        <span class="publication-authors small-text">
+                            C.Molinier, P.Temple, G.Perrouin
+                        </span>
+                        </div>
+                        <p class="publication-item">
+                            International Conference on Automation of Software Test (AST) 2024
+                        </p>
+                        <a class="publication-button" href="https://www.computer.org/csdl/proceedings-article/ast/2024/10769408/22f0mFGnmus">Paper link</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="teaching">
+                <h2>Teaching</h2>
+                <div class ="course">
+                    <h3>Artificial Intelligence Introduction</h3>
+                    <p> Lab session supervisor</p>
+                    <p>First discovery of artificial intelligence and its fundamental principles for first year of engineering school student (eq licence 3).</p>
+                    <ul class="custom-bullets">
+                        <li>Linear regression / Logistic regression</li>
+                        <li>Model training and evaluation</li>
+                        <li>Overfitting / Underfitting</li>
+                        <li>Polynomial expansion</li>
+                        <li>Regularization</li>
+                        <li>...</li>
+                      </ul>
+                </div>
 
-<h2>This website is under construction</h2>
+                <div class ="course">
+                    <h3>Artificial Intelligence</h3>
+                    <p> Lab session supervisor</p>
+                    <p>Implementation and understanding of deep neural network architectures for natural language processing for last year of engineering school student (eq master 2).</p>
+                    <ul class="custom-bullets">
+                        <li>Deep neural networks</li>
+                        <li>Recurrent neural networks</li>
+                        <li>Transformers</li>
+                      </ul>
+                </div>
+            </div>
+      </div>
+
+    </div>
+  </body>
+  
+</html>

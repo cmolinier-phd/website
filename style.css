@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #EAEDF0;
+    /* Ne mets pas display:flex ici, ça casse la structure de la page */
+  }
+  
+  .container {
+    display: flex;
+    gap: 40px; /* espace entre .profile et .sections */
+    align-items: flex-start;
+    padding: 50px;
+  }
+  
+  .profile {
+    width: 30%;
+    justify-items: center;
+  }
+  
+  .photo {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  h1 {
+    margin: 0.5rem 0 0;
+    font-size: 3rem;
+  }
+  
+  h2 {
+    margin: 0.5rem 0 1rem;
+    font-size: 1.5rem;
+    color: #303745;
+  }
+
+  h3 {
+    color: #71C685;;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    font-size: 0; /* supprime l’espace blanc entre les boutons */
+  }
+  
+  .icon-button img {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    border-radius: 8px;
+  }
+  
+  .sections {
+    flex: 1; 
+    max-width: 1200px;
+  }
+  
+  .about {
+    font-size: large;
+    text-align: justify;
+    margin-bottom: 3rem;
+  }
+
+  .research {
+    margin-bottom: 3rem;
+  }
+
+  .publications {
+
+    margin-bottom: 3rem;
+  }
+
+  .publication {
+    margin-bottom: 1.5rem;
+  }
+
+  .publication-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 0pt;
+  }
+  
+  .publication-title {
+    font-size: 1rem;
+  }
+  
+  .publication-authors {
+    font-size: 0.875rem;
+    color: #555;
+    white-space: nowrap;
+  }
+
+  .publication-item {
+    margin-top: 0pt;
+  }
+
+  .publication-button {
+    margin-top: 1pt;
+    background-color: #71C685;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  /* Supprimer tous les effets au survol */
+  .publication-button:hover,
+  .publication-button:focus,
+  .publication-button:active {
+    background-color: #71C685;
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  .custom-bullets li {
+    list-style: none;
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 0.5rem;
+  }
+  
+  .custom-bullets li::before {
+    content: "▷"; /* Triangle pointant vers la droite */
+    position: absolute;
+    left: 0;
+    color: #71C685;
+    font-size: 0.8em;
+    top: 0.15em;
+  }
+  
+  
